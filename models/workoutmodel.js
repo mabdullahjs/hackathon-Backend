@@ -6,15 +6,25 @@ const workoutSchema = new Schema({
     title:{
         type:String,
         required:true
-    },
-    reps:{
-        type:Number,
-        required:true
-    },
-    load:{
-        type:Number,
-        required:true
     }
+    // image:{
+    //     type:String,
+    // },
+    // category:{
+    //     type:String,
+    // },
+    // description:{
+    //     type:String,
+    // },
+    // UnitName:{
+    //     type:String,
+    // },
+    // UnitPrice:{
+    //     type:String,
+    // }
+
+
+
 })
 
 module.exports = mongoose.model('Workout' , workoutSchema);
